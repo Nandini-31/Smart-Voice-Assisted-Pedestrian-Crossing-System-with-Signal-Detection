@@ -72,22 +72,6 @@ The system improves **safety and accessibility** at pedestrian crossings by auto
 
 ---
 
-## 📂 Project Structure
-Smart-Voice-Assisted-Pedestrian-Crossing-System-with-Signal-Detection/
-│── README.md
-│── pedestrian_crossing.ino
-│── images/
-│    ├── block_diagram.jpeg
-│    ├── schematic.jpeg
-│    ├── prototype1.jpeg
-│    ├── prototype2.jpeg
-│    └── prototype3.jpeg
-
----
-
-
----
-
 ## 🚀 Future Scope
 - AI-based signal prediction for smarter crossings  
 - Integration with **urban traffic control systems**  
