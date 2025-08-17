@@ -1,26 +1,27 @@
 # 🚦 Smart Voice-Assisted Pedestrian Crossing System with Signal Detection
 
 ## 📌 Overview
-This project presents the design and implementation of a **smart pedestrian crossing system** using an **ESP32 microcontroller, ultrasonic sensors, servo motor, and IoT integration (Blynk App)**.  
-The system ensures **safe crossing for pedestrians**, particularly the elderly and differently-abled, by automatically managing crossing barriers and providing **voice-assisted guidance**.
+A **smart pedestrian crossing system** designed using an **ESP32 microcontroller, ultrasonic sensors, servo motor, and IoT integration (Blynk App)**.  
+The system improves **safety and accessibility** at pedestrian crossings by automatically detecting movement, controlling barriers, and giving **voice-assisted guidance**.  
 
 ---
 
-## 🎯 Objectives
-- Improve **safety and accessibility** at pedestrian crossings.  
-- Provide **real-time signal detection** with voice assistance.  
-- Enable **automatic platform movement** using microcontrollers and sensors.  
-- Support **IoT-based remote monitoring** via Blynk.  
+## 🎯 Features
+- 🚦 Automatic traffic signal & barrier control  
+- 🎙️ Voice guidance for elderly and differently-abled pedestrians  
+- 📡 Real-time IoT monitoring via **Blynk App**  
+- ⚡ Servo-controlled crossing platform  
+- 🛠️ Low-cost, energy-efficient, and scalable  
 
 ---
 
 ## 🛠️ Hardware Components
-- ESP32 Module  
+- ESP32 Microcontroller  
+- Ultrasonic Sensors (HC-SR04)  
 - Servo Motor  
-- Ultrasonic Sensor (HC-SR04)  
 - LM2596 DC-DC Converter  
-- Voice Playback Module (ISD1820)  
-- Speaker  
+- Voice Playback Module (ISD1820) + Speaker  
+- LEDs (Red, Yellow, Green)  
 
 ---
 
@@ -31,10 +32,25 @@ The system ensures **safe crossing for pedestrians**, particularly the elderly a
 ---
 
 ## ⚙️ Working Principle
-1. Sensors detect the presence of trains or pedestrians.  
-2. ESP32 processes signals and controls the servo motor to **open/close the crossing platform**.  
-3. A **voice module + speaker** provides real-time guidance.  
-4. IoT integration with **Blynk App** allows remote monitoring and notifications.  
+1. Ultrasonic sensors detect **pedestrian or train movement**.  
+2. ESP32 processes signals and controls the **servo motor** + **LED indicators**.  
+3. Voice module announces safe crossing instructions.  
+4. IoT notifications sent to **Blynk App** for remote alerts.  
+
+---
+
+## 📸 Diagrams & Prototype
+
+### Block Diagram  
+![Block Diagram](images/block_diagram.jpeg)
+
+### Circuit Schematic  
+![Circuit Schematic](images/schematic.jpeg)
+
+### Prototype  
+![Prototype1](images/prototype1.jpeg)  
+![Prototype2](images/prototype2.jpeg)  
+![Prototype3](images/prototype3.jpeg)  
 
 ---
 
@@ -49,9 +65,34 @@ The system ensures **safe crossing for pedestrians**, particularly the elderly a
 
 ## ✅ Advantages
 - Enhances **pedestrian safety**  
-- Reduces **manual intervention**  
-- Provides **real-time monitoring** via IoT  
-- Accessible for elderly and differently-abled people  
-- Supports **energy-efficient operation**  
+- Provides **voice guidance** for accessibility  
+- IoT-enabled **remote monitoring**  
+- Reduces need for manual supervision  
+- Energy-efficient and practical  
 
 ---
+
+## 📂 Project Structure
+Smart-Voice-Assisted-Pedestrian-Crossing-System-with-Signal-Detection/
+│── README.md
+│── pedestrian_crossing.ino
+│── images/
+│    ├── block_diagram.jpeg
+│    ├── schematic.jpeg
+│    ├── prototype1.jpeg
+│    ├── prototype2.jpeg
+│    └── prototype3.jpeg
+
+---
+
+
+---
+
+## 🚀 Future Scope
+- AI-based signal prediction for smarter crossings  
+- Integration with **urban traffic control systems**  
+- Solar-powered operation for energy independence  
+
+---
+
+
