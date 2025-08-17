@@ -55,5 +55,3 @@ The system ensures **safe crossing for pedestrians**, particularly the elderly a
 - Supports **energy-efficient operation**  
 
 ---
-
-## 📂 Project Structure
